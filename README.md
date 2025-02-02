@@ -18,7 +18,7 @@ This dashboard provides a real-time view of Celestia network parameters, enablin
 
 ## Live Demo
 
-Visit the live dashboard at: [Celestia Parameter Dashboard](#)
+Visit the live dashboard at: [Celestia Parameter Dashboard](https://celestia-governance-dashboard.replit.app/)
 
 ## Technology Stack
 

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "main.py"
+    }
+  ],
+  "env": {
+    "PYTHONPATH": ".",
+    "PORT": "5000"
+  },
+  "installCommand": "pip install -r requirements.txt",
+  "buildCommand": "python -m streamlit run main.py",
+  "outputDirectory": "."
+}

@@ -27,26 +27,6 @@ Visit the live dashboard at: [Celestia Parameter Dashboard](https://celestia-gov
 - **Database**: SQLite3
 - **API Integration**: gRPC, REST
 - **Data Visualization**: Plotly
-- **Deployment**: Vercel
-
-## Deployment
-
-### Prerequisites
-
-- Python 3.11+
-- Git
-- Vercel CLI (optional)
-
-### Deploy on Vercel
-
-1. Fork this repository
-2. Connect your Vercel account to GitHub
-3. Import the repository in Vercel:
-   - Select the repository
-   - Framework Preset: Other
-   - Build Command: Leave blank (uses `vercel.json` configuration)
-   - Output Directory: `.`
-   - Install Command: Leave blank (uses `vercel.json` configuration)
 
 ### Local Development
 
